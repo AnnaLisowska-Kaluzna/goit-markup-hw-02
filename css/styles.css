@@ -1,0 +1,119 @@
+body {
+  color: #212121;
+  background-color: #e5e5e5;
+  font-family: "Roboto", "Raleway", sans-serif;
+}
+
+.top-row {
+  background-color: #ffffff;
+}
+.logo,
+.logo-bottom {
+  font-family: Raleway;
+  font-style: Bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+  text-decoration: none;
+}
+.logo-bottom {
+  color: #ffffff;
+}
+span {
+  color: #2196f3;
+}
+
+.menu {
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+}
+.link {
+  text-decoration: none;
+}
+.link:hover,
+.link-contact:hover,
+.link-location:hover {
+  color: #2196f3;
+}
+.top-contacts {
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.link-contact {
+  text-decoration: none;
+  color: #757575;
+}
+span {
+  color: #2196f3;
+}
+.banner-effective {
+  font-style: normal;
+  font-size: 44px;
+  line-height: 1.36;
+  color: #ffffff;
+}
+.assets-name {
+  font-style: bold;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.assets-text {
+  font-style: regular;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #757575;
+}
+.activities-title,
+.team-header {
+  font-style: bold;
+  font-size: 36px;
+  line-height: 1.16;
+}
+.employee,
+.employee-profession {
+  font-style: medium;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.employee-profession {
+  color: #757575;
+}
+.project-title {
+  font-style: bold;
+  font-size: 18px;
+  line-height: 2;
+}
+.project-text {
+  font-style: regular;
+  font-size: 16px;
+  line-height: 1.88;
+  color: #757575;
+}
+.bottom-row {
+  background-color: #2f303a;
+}
+.location,
+.link-location {
+  font-style: regular;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+}
+.link-location {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+.button:hover,
+.btn:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+  cursor: pointer;
+}
+.button {
+  font-style: bold;
+  font-size: 16px;
+  line-height: 2.3;
+}
