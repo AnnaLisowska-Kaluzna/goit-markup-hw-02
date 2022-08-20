@@ -33,8 +33,11 @@ span {
   text-decoration: none;
 }
 .link:hover,
+.link:focus,
 .link-contact:hover,
-.link-location:hover {
+.link .link-contact:focus,
+.link-location:hover,
+.link .link-location:focus {
   color: #2196f3;
 }
 .top-contacts {
@@ -107,7 +110,9 @@ span {
   color: rgba(255, 255, 255, 0.6);
 }
 .button:hover,
-.btn:hover {
+.button:focus,
+.btn:hover,
+.btn:focus {
   color: #ffffff;
   background-color: #2196f3;
   cursor: pointer;
