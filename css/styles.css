@@ -35,9 +35,9 @@ span {
 .link:hover,
 .link:focus,
 .link-contact:hover,
-.link .link-contact:focus,
+.link-contact:focus,
 .link-location:hover,
-.link .link-location:focus {
+.link-location:focus {
   color: #2196f3;
 }
 .top-contacts {
