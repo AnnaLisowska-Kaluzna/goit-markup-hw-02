@@ -1,6 +1,12 @@
 :root {
   --main-color: #212121;
   --background-color: #e5e5e5;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-grey: #757575;
+  --background-btn-color: #f5f4fa;
+  --background-bm-color: #2f303a;
+  --color-hover: #2196f3;
 }
 
 body {
@@ -11,8 +17,8 @@ body {
 
 /* header + bottom logo */
 
-.top-row {
-  background-color: #ffffff;
+.top-menu {
+  background-color: var(--color-white);
 }
 
 .logo,
@@ -22,16 +28,16 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
-  color: #000000;
+  color: var(--color-black);
   text-decoration: none;
 }
 
 .logo-bottom {
-  color: #ffffff;
+  color: var(--color-white);
 }
 
 .logo-part {
-  color: #2196f3;
+  color: var(--color-hover);
 }
 
 .menu {
@@ -44,6 +50,12 @@ body {
 }
 
 .link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
   text-decoration: none;
 }
 
@@ -53,6 +65,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: var(--main-color);
 }
 
 .link-contact {
@@ -62,7 +75,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: #757575;
+  color: var(--color-grey);
 }
 
 .link:hover,
@@ -71,13 +84,12 @@ body {
 .link-contact:focus,
 .link-location:hover,
 .link-location:focus {
-  color: #2196f3;
+  color: var(--color-hover);
 }
 
 /* main part */
 
 .banner {
-  background-color: #2f303a;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -85,7 +97,8 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--color-white);
+  background-color: var(--background-bm-color);
 }
 
 .button {
@@ -99,7 +112,7 @@ body {
   letter-spacing: 0.06em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  background-color: #f5f4fa;
+  background-color: var(--background-btn-color);
 }
 
 .btn {
@@ -109,7 +122,7 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  background: #f5f4fa;
+  background-color: var(--background-btn-color);
   border-radius: 4px;
 }
 
@@ -117,8 +130,8 @@ body {
 .button:focus,
 .btn:hover,
 .btn:focus {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--color-white);
+  background-color: var(--color-hover);
   cursor: pointer;
 }
 
@@ -137,7 +150,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--color-grey);
 }
 
 .activities-title,
@@ -154,6 +167,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  color: var(--main-color);
 }
 
 .employee-profession {
@@ -161,7 +175,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-  color: #757575;
+  color: var(--color-grey);
 }
 
 .project-title {
@@ -170,6 +184,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: var(--main-color);
 }
 .project-text {
   font-style: normal;
@@ -177,13 +192,13 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--color-grey);
 }
 
 /* footer part */
 
-.bottom-row {
-  background-color: #2f303a;
+.bottom-menu {
+  background-color: var(--background-bm-color);
 }
 
 .location,
@@ -193,7 +208,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--color-white);
 }
 
 .link-location {
